@@ -7,7 +7,9 @@ follow the instructions present [here](https://airflow.apache.org/docs/apache-ai
 
 ## copy the file to the dag folder
 
-`cp tutorial.py /Users/anton/Software/airflow/dags`
+`cp tutorial.py /Users/anton/Software/airflow/dags`  
+`cp pythonoperator.py /Users/anton/Software/airflow/dags`  
+
 
 go to the standalone installation folder for airflow
 
@@ -32,5 +34,6 @@ The server URL is
 ## install the requirements in airflow virtual environment  
 `uv pip install -r requirements.txt`
 
-
+Note:  
+You have to unpause the DAG in order to run it. Otherwise it would be in queued state    
 
